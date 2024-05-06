@@ -5,7 +5,7 @@ import React from "react";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import ArticleBody from "@/components/article";
-
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +26,7 @@ export default function RootLayout({
           <Header/>
           <Hero/>
           <ArticleBody/>
+          <Footer/>
           {children}
         </div>
         </body>
