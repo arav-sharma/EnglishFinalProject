@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Footer: React.FC = () => {
   return (
@@ -12,10 +13,10 @@ const Footer: React.FC = () => {
 
           <ul className="bg-gray-700 flex flex-wrap items-center mt-3 text-sm text-gray-200 dark:text-gray-200 sm:mt-0">
           <li className="bg-gray-700">
-              <a href="/privacy-policy" className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6 ml-20">Privacy Policy</a>
+            <Link href="/privacy-policy" ><p className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6 ml-20">Privacy Policy</p></Link>
             </li>
             <li className="bg-gray-700">
-              <a href="/faq" className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6">FAQ</a>
+             <Link href="/faq"><p className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6">FAQ</p></Link>
             </li>
           </ul>
 
