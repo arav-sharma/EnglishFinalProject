@@ -42,7 +42,7 @@ const ArticleBody: React.FC = () => {
             The same survey yielded results on how educators rated what they thought were the most prelevant AI-related cheating methods used within their educational insitution. The results showed that educators believed AI-releated cheating boiled down to students using AI to generate essays, using AI for assistance during exams and testing including to translate text, and using AI-generated code to complete coding assignments.   
         </p>
 
-        <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Educators' Opinion on Most Prelevant Methods of AI-Related Cheating</h2>
+        <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Educators&apos; Opinion on Most Prelevant Methods of AI-Related Cheating</h2>
         <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" alt='graph-data-2' src='https://i.postimg.cc/wvsgwZ4V/image.png' srcSet='https://i.postimg.cc/wvsgwZ4V/image.png'></img>
         <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
         <hr className="h-px my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto"/>
@@ -50,7 +50,7 @@ const ArticleBody: React.FC = () => {
         {/* Start of Section 3 */}
         <h2 className="font-titlet text-4xl text-stone-100 dark:text-white text-center mt-10 mb-4">Utilizing AI as a Strategic Tool for Educators</h2>
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
-          According to a <a href="https://ed.stanford.edu/news/feedback-ai-driven-tool-improves-teaching-stanford-led-research-finds"><u>Stanford-led study ↗</u></a> conducted in 2023, AI tools can significantly enhance educational practices by providing automated feedback to instructors. This feedback helps improve their communication techniques, particularly in how they acknowledge and build upon students' contributions, a practice known as "uptake." This improvement in uptake was shown to increase student satisfaction and assignment completion rates. Furthermore, the AI-driven tool, M-Powering Teachers, offers a cost-effective and scalable alternative to traditional classroom observation, making it accessible for widespread use in educational settings.
+          According to a <a href="https://ed.stanford.edu/news/feedback-ai-driven-tool-improves-teaching-stanford-led-research-finds"><u>Stanford-led study ↗</u></a> conducted in 2023, AI tools can significantly enhance educational practices by providing automated feedback to instructors. This feedback helps improve their communication techniques, particularly in how they acknowledge and build upon students&apos; contributions, a practice known as &quot;uptake.&quot; This improvement in uptake was shown to increase student satisfaction and assignment completion rates. Furthermore, the AI-driven tool, M-Powering Teachers, offers a cost-effective and scalable alternative to traditional classroom observation, making it accessible for widespread use in educational settings.
         </p>
 
         <div className="relative m-auto mb-10 w-5/6 max-w-screen-lg overflow-hidden md:mb-20 md:h-150 md:rounded-2xl mt-5">
