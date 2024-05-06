@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
  {/* 1. What is AI
       2. How is AI used currently in schools
@@ -15,12 +16,12 @@ const ArticleBody: React.FC = () => {
   return (
     <div className="m-auto text-justify w-8/12 prose-md prose prose-stone dark:prose-invert sm:prose-lg"> 
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg">
-          05/06/2024—I'm excited to explore the world of <a className="text-stone-300" href="https://www.google.com/search?sca_esv=be445f0cc062ab15&sca_upv=1&rlz=1C5CHFA_enUS1102US1102&sxsrf=ADLYWIKK1zelo1MqegZEzRx9SUULYbkMkw:1715023403246&q=artificial+intelligence&si=ACC90nweIdwxfIl6sRrg1PmdeiV16YSSK5qUMpXo4wqX3v5TYYeDR0ZmwbWtjFV_5yNZefqPU8sA3f_t7JrsWGzFxBlnLweAm56G23yqv1LM8pGlFkzw1S4Sh-iGxZztkhYbS4P42FSECXIKQpesAGZ9UqH92XfIcA%3D%3D&expnd=1&sa=X&ved=2ahUKEwiTl-2F4PmFAxWj4ckDHa-ZAbcQgCt6BAgREA0&biw=1800&bih=1005&dpr=2"><u>Artificial Intelligence ↗</u></a> (herein by referred to as AI), specifically its role in K-12 Education. We will discuss how the use of AI in K-12 education will impact the traditional role of educators by underlining how the educational system will change for future generations as technology continues to evolve in this field and how educators can use AI to their advantage. 
+          05/06/2024—I&apos;m excited to explore the world of <a className="text-stone-300" href="https://www.google.com/search?sca_esv=be445f0cc062ab15&sca_upv=1&rlz=1C5CHFA_enUS1102US1102&sxsrf=ADLYWIKK1zelo1MqegZEzRx9SUULYbkMkw:1715023403246&q=artificial+intelligence&si=ACC90nweIdwxfIl6sRrg1PmdeiV16YSSK5qUMpXo4wqX3v5TYYeDR0ZmwbWtjFV_5yNZefqPU8sA3f_t7JrsWGzFxBlnLweAm56G23yqv1LM8pGlFkzw1S4Sh-iGxZztkhYbS4P42FSECXIKQpesAGZ9UqH92XfIcA%3D%3D&expnd=1&sa=X&ved=2ahUKEwiTl-2F4PmFAxWj4ckDHa-ZAbcQgCt6BAgREA0&biw=1800&bih=1005&dpr=2"><u>Artificial Intelligence ↗</u></a> (herein by referred to as AI), specifically its role in K-12 Education. We will discuss how the use of AI in K-12 education will impact the traditional role of educators by underlining how the educational system will change for future generations as technology continues to evolve in this field and how educators can use AI to their advantage. 
         </p>  
         {/* Start of Section 1 */}
         <h2 className="font-titlet text-4xl text-stone-100 dark:text-white text-center mt-10 mb-4">What is Artifical Intelligence (AI)?</h2>
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8">
-            Before we continue, it is imperative to understand the definition of AI, or artifical intelligence. As Google defines it, AI is "the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages." In other words, AI is the pursuit of developing computers with capabilities akin to 1:1 human intelligence. This encompasses a wide range of functionalities, from recognizing patterns in data to understanding natural language and making decisions based on that understanding. Essentially, AI enables machines to learn from experience, adapt to new inputs, and perform tasks autonomously without explicit programming for each task. This capacity to mimic human cognition opens up vast possibilities for automating routine tasks, solving complex problems, and augmenting human capabilities across various domains.
+            Before we continue, it is imperative to understand the definition of AI, or artifical intelligence. As Google defines it, AI is &quot;the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.&quot; In other words, AI is the pursuit of developing computers with capabilities akin to 1:1 human intelligence. This encompasses a wide range of functionalities, from recognizing patterns in data to understanding natural language and making decisions based on that understanding. Essentially, AI enables machines to learn from experience, adapt to new inputs, and perform tasks autonomously without explicit programming for each task. This capacity to mimic human cognition opens up vast possibilities for automating routine tasks, solving complex problems, and augmenting human capabilities across various domains.
         </p> <br></br>
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
             Moreover, AI is not a single entity but rather a field composed of diverse techniques and procedures. These include machine learning, where algorithms learn patterns from data; natural language processing, which enables computers to understand and generate human language; computer vision, which allows machines to interpret and analyze visual information; and many others. By combining these techniques and advancing research in AI, we continue to push the boundaries of what machines can achieve, unlocking new opportunities for innovation and addressing societal challenges in ways previously unimaginable.
@@ -34,7 +35,7 @@ const ArticleBody: React.FC = () => {
         </p> <br></br>
         
         <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Concerns of Educators Regarding Student Use of AI in School</h2>
-        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" src='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png' srcSet='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png'></img>
+        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" alt='graph-data-1' src='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png' srcSet='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png'></img>
         <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
 
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg mt-5 text-justify indent-8 ">
@@ -42,7 +43,7 @@ const ArticleBody: React.FC = () => {
         </p>
 
         <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Educators' Opinion on Most Prelevant Methods of AI-Related Cheating</h2>
-        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" src='https://i.postimg.cc/wvsgwZ4V/image.png' srcSet='https://i.postimg.cc/wvsgwZ4V/image.png'></img>
+        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" alt='graph-data-2' src='https://i.postimg.cc/wvsgwZ4V/image.png' srcSet='https://i.postimg.cc/wvsgwZ4V/image.png'></img>
         <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
         <hr className="h-px my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto"/>
         
@@ -53,7 +54,7 @@ const ArticleBody: React.FC = () => {
         </p>
 
         <div className="relative m-auto mb-10 w-5/6 max-w-screen-lg overflow-hidden md:mb-20 md:h-150 md:rounded-2xl mt-5">
-          <img alt="AI_ServerRoom" loading="eager" decoding="async" data-nimg="1"
+          <img alt="Classroom" loading="eager" decoding="async" data-nimg="1"
             className="h-full w-full object-cover duration-700 ease-in-out scale-100 blur-0 hover:scale-105"
             srcSet="https://i.postimg.cc/0ND50rWQ/female-high-school-pupil-writing-on-whiteboard-in-2023-11-27-05-17-34-utc-1024x683.jpg"
             src="https://i.postimg.cc/0ND50rWQ/female-high-school-pupil-writing-on-whiteboard-in-2023-11-27-05-17-34-utc-1024x683.jpg"
