@@ -98,7 +98,7 @@ const ArticleBody: React.FC = () => {
             Figure 1.6: Automation of Manual Tasks (23%)
           </h3> 
           <p className="text-md mt-3 m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
-            Almost a fourth of educators agree that there are significant concerns about the implications of automation for controlling and personalizing educational processes. One of the primary concerns is the risk of a 'one-size-fits-all' approach. While AI can manage data and perform tasks based on predefined algorithms, it may not fully capture the nuanced needs of individual students as effectively as a human teacher can. Personalization in education is not merely about adapting to academic performance but also involves understanding students' emotional and social development, interests, and unique learning styles. AI, in its current form, might not be adept at making these fine distinctions, which could lead to a more generic and less engaging learning experience.
+            Almost a fourth of educators agree that there are significant concerns about the implications of automation for controlling and personalizing educational processes. One of the primary concerns is the risk of a &apos;one-size-fits-all&apos; approach. While AI can manage data and perform tasks based on predefined algorithms, it may not fully capture the nuanced needs of individual students as effectively as a human teacher can. Personalization in education is not merely about adapting to academic performance but also involves understanding students&apos; emotional and social development, interests, and unique learning styles. AI, in its current form, might not be adept at making these fine distinctions, which could lead to a more generic and less engaging learning experience.
           </p>
           
 
@@ -115,7 +115,7 @@ const ArticleBody: React.FC = () => {
           </div>
           <p className="text-md mb-6 text-right m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
           <p className="text-md m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
-            This bar graph displays the results of a survey concerning educators' awareness of AI-related cheating methods. The methods of cheating are listed along the y-axis, and the corresponding percentage of educators who are aware of each method is represented on the x-axis. This is the breakdown of the data shown in the graph:
+            This bar graph displays the results of a survey concerning educators&apos; awareness of AI-related cheating methods. The methods of cheating are listed along the y-axis, and the corresponding percentage of educators who are aware of each method is represented on the x-axis. This is the breakdown of the data shown in the graph:
           </p>
 
           <ul className="text-stone-400 dark:text-stone-400 w-2/5 overflow-wrap leading-8 text-justify list-none pl-2">
@@ -123,7 +123,7 @@ const ArticleBody: React.FC = () => {
             <li>Utilizing chatbots or voice assistants for assistance during exams: <span className="text-stone-400 dark:text-stone-400">31% of educators are aware of this cheating method.</span></li>
             <li>Employing AI-driven translation tools during assessments: <span className="text-stone-400 dark:text-stone-400">29% of educators are aware of this cheating method.</span></li>
             <li>Copying or sharing AI-generated code or algorithms for coding assignments: <span className="text-stone-400 dark:text-stone-400">28% of educators are aware of this cheating method.</span></li>
-            <li>N/A: I'm not aware of any AI-related cheating methods: <span className="text-stone-400 dark:text-stone-400">10% of educators are not aware of any specific AI-related cheating methods.</span></li>
+            <li>N/A: I&apos;m not aware of any AI-related cheating methods: <span className="text-stone-400 dark:text-stone-400">10% of educators are not aware of any specific AI-related cheating methods.</span></li>
             <li>Other/Not sure: <span className="text-stone-400 dark:text-stone-400">4% either are aware of other methods not listed or are not sure about any.</span></li>
           </ul>
 
@@ -149,7 +149,7 @@ const ArticleBody: React.FC = () => {
             Figure 2.3: Awareness of Employing AI-driven Translation Tools During Assessments (29%)
           </h3>
           <p className="text-md mt-3 m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
-            Nearly 30% of educators are aware of the use of AI-driven translation tools during assessments. This awareness is important for addressing potential academic dishonesty in language learning environments and ensuring that assessments accurately reflect a student's own language proficiency.
+            Nearly 30% of educators are aware of the use of AI-driven translation tools during assessments. This awareness is important for addressing potential academic dishonesty in language learning environments and ensuring that assessments accurately reflect a student&apos;s own language proficiency.
           </p>
 
           <h3 className="mb-3 font-title text-lg font-bold text-stone-100 dark:text-white mt-15">
@@ -186,7 +186,7 @@ const ArticleBody: React.FC = () => {
 
           <ul className="text-stone-400 dark:text-stone-400 w-2/5 overflow-wrap leading-8 text-justify list-none pl-2">
             <li>AI-powered educational games: <span className="text-stone-400 dark:text-stone-400">51% of educators report using AI educational games to create engaging learning environments.</span></li>
-            <li>Adaptive learning platforms: <span className="text-stone-400 dark:text-stone-400">43% utilize platforms that tailor content and pacing to each student's needs.</span></li>
+            <li>Adaptive learning platforms: <span className="text-stone-400 dark:text-stone-400">43% utilize platforms that tailor content and pacing to each student&apos;s needs.</span></li>
             <li>Automated grading and feedback systems: <span className="text-stone-400 dark:text-stone-400">41% adopt systems that automate grading and provide instant feedback.</span></li>
             <li>Chatbots for student support: <span className="text-stone-400 dark:text-stone-400">35% employ AI chatbots that offer round-the-clock assistance and streamline student queries.</span></li>
             <li>Intelligent tutoring systems: <span className="text-stone-400 dark:text-stone-400">29% implement tutoring systems that simulate personalized teaching experiences.</span></li>
@@ -206,7 +206,7 @@ const ArticleBody: React.FC = () => {
             Figure 3.1: AI-powered Educational Games (51%)
           </h3>
           <p className="text-md mt-3 m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
-            Over half of educators utilize AI-powered educational games, which leverage artificial intelligence to adapt the game's difficulty and content to the individual learning levels of students. This approach not only makes learning more engaging but also ensures that students are challenged just right, enhancing their learning potential and retention.
+            Over half of educators utilize AI-powered educational games, which leverage artificial intelligence to adapt the game&apos;s difficulty and content to the individual learning levels of students. This approach not only makes learning more engaging but also ensures that students are challenged just right, enhancing their learning potential and retention.
           </p>
 
           <h3 className="mb-3 font-title text-lg font-bold text-stone-100 dark:text-white mt-15">
@@ -234,7 +234,7 @@ const ArticleBody: React.FC = () => {
             Figure 3.5: Intelligent Tutoring Systems (29%)
           </h3>
           <p className="text-md mt-3 m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
-            Nearly a third of educators are implementing intelligent tutoring systems. These systems use AI to mimic the benefits of one-on-one tutoring, providing personalized instruction and feedback based on the student's specific needs and learning patterns. They are particularly effective in subjects where students benefit from repeated practice and feedback, such as mathematics and languages.
+            Nearly a third of educators are implementing intelligent tutoring systems. These systems use AI to mimic the benefits of one-on-one tutoring, providing personalized instruction and feedback based on the student&apos;s specific needs and learning patterns. They are particularly effective in subjects where students benefit from repeated practice and feedback, such as mathematics and languages.
           </p>
 
         </div>
