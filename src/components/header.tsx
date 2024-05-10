@@ -7,8 +7,8 @@ const Header: React.FC = () => {
         <a className="flex items-center justify-center" href="/">
           <div className="inline-block h-8 w-8 overflow-hidden rounded-full align-middle">
             <img alt="Nexus" loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
-              srcSet="https://i.postimg.cc/hGDXr0BZ/n-logo.png"
-              src="https://i.postimg.cc/hGDXr0BZ/n-logo.png"
+              srcSet="/Images/NexusLogo.png"
+              src="/Images/NexusLogo.png"
               style={{ color: 'transparent' }} />
           </div>
           <span className="ml-3 inline-block truncate font-title font-medium">Nexus</span>
