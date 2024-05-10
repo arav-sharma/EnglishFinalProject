@@ -119,3 +119,9 @@ h1, h2, h3 {
   font-weight: 700;
   font-style: normal;
 }
+
+
+.hanging-indent {
+  text-indent: -1.5rem; /* Adjust the value based on your needs */
+  padding-left: 1.5rem; /* Should match the negative text-indent */
+}

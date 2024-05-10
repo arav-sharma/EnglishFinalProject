@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
+
 
  {/* 1. What is AI
       2. How is AI used currently in schools
@@ -31,35 +32,65 @@ const ArticleBody: React.FC = () => {
 
         <h2 className="font-titlet text-4xl text-stone-100 dark:text-white text-center mt-10 mb-4">The Current Applications of AI in K-12 Education</h2>
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8">
-            Many educators today have expressed their concerns over the usage of AI for students to commit academic dishonesty. For example, a student may be assigned an assignment and they use AI Chatbots like <a href="https://chatgpt.com/"><u>ChatGPT ↗</u></a> or <a href="https://bing.com/chat"><u>BingAI ↗</u></a> to complete their assignments without any congitive input. The following graph is referenced by a study conducted by <a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Forbes Advisor ↗</u></a> represents the concerns of educators regarding AI in K-12 education.
+            Many educators today have expressed their concerns over the usage of AI for students to commit academic dishonesty. For example, a student may be assigned an assignment and they use AI Chatbots like <a href="https://chatgpt.com/"><u>ChatGPT ↗</u></a> or <a href="https://bing.com/chat"><u>BingAI ↗</u></a> to complete their assignments without any congitive input. The following graph is referenced by a study conducted by <a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Forbes Advisor ↗</u></a> represents the concerns of educators regarding AI in K-12 education. Moving forward, information regarding all graphs and data can be further explained in-depth, tackling each and every topic mentioned in the graph and where the data was sourced from, can be found in <Link href="/data"><u>the data tab ↗</u></Link>. See the breakdown of Figure 1 <Link href="/data#figureOne"><u>here ↗</u></Link>. 
         </p> <br></br>
         
-        <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Concerns of Educators Regarding Student Use of AI in School</h2>
-        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" alt='graph-data-1' src='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png' srcSet='https://i.postimg.cc/vmBN8MGY/Screenshot-2024-05-06-at-3-24-44-PM.png'></img>
+        <div className="hover:scale-105 hover:shadow-glow my-6 mx-auto w-5/6 bg-transparent border-0 dark:bg-gray-700 transition-transform duration-700 ease-in-out p-5">
+        <h2 className="text-2xl text-stone-100 dark:text-white text-center mt-10 mb-5">Figure 1: Concerns of Educators Regarding Student Use of AI in School</h2>
+        <img
+          className="w-full h-auto"
+          alt='graph-data-1-educator-concerns'
+          src="/Images/EducatorConcerns.png"
+          srcSet="/Images/EducatorConcerns.png"
+        />
+      </div>
+
         <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
 
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg mt-5 text-justify indent-8 ">
-            The same survey yielded results on how educators rated what they thought were the most prelevant AI-related cheating methods used within their educational insitution. The results showed that educators believed AI-releated cheating boiled down to students using AI to generate essays, using AI for assistance during exams and testing including to translate text, and using AI-generated code to complete coding assignments.   
+            The same survey yielded results on how educators rated what they thought were the most prelevant AI-related cheating methods used within their educational insitution. The results showed that educators believed AI-releated cheating boiled down to students using AI to generate essays, using AI for assistance during exams and testing including to translate text, and using AI-generated code to complete coding assignments. See the breakdown of the data <Link href="/data#figureTwo"><u>here ↗</u></Link>. 
         </p>
-
-        <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Educators&apos; Opinion on Most Prelevant Methods of AI-Related Cheating</h2>
-        <img className="my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto" alt='graph-data-2' src='https://i.postimg.cc/wvsgwZ4V/image.png' srcSet='https://i.postimg.cc/wvsgwZ4V/image.png'></img>
+        
+        <div className="hover:scale-105 hover:shadow-glow my-6 mx-auto w-5/6 bg-transparent border-0 dark:bg-gray-700 transition-transform duration-700 ease-in-out p-5">
+          <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-2">Figure 2: Educators&apos; Opinion on Most Prelevant Methods of AI-Related Cheating</h2>
+          <img
+            alt='graph-data-2-educator-opinions'
+            src="/Images/EducatorOpinions.png"
+            srcSet="/Images/EducatorOpinions.png"
+            style={{ width: '100%', height: 'auto', color: 'transparent' }}
+          />
+        </div>
         <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
         <hr className="h-px my-6 bg-gray-300 border-0 dark:bg-gray-700 w-5/6 mx-auto"/>
         
         {/* Start of Section 3 */}
         <h2 className="font-titlet text-4xl text-stone-100 dark:text-white text-center mt-10 mb-4">Utilizing AI as a Strategic Tool for Educators</h2>
         <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
-          According to a <a href="https://ed.stanford.edu/news/feedback-ai-driven-tool-improves-teaching-stanford-led-research-finds"><u>Stanford-led study ↗</u></a> conducted in 2023, AI tools can significantly enhance educational practices by providing automated feedback to instructors. This feedback helps improve their communication techniques, particularly in how they acknowledge and build upon students&apos; contributions, a practice known as &quot;uptake.&quot; This improvement in uptake was shown to increase student satisfaction and assignment completion rates. Furthermore, the AI-driven tool, M-Powering Teachers, offers a cost-effective and scalable alternative to traditional classroom observation, making it accessible for widespread use in educational settings.
+          According to a <a href="https://ed.stanford.edu/news/feedback-ai-driven-tool-improves-teaching-stanford-led-research-finds"><u>Stanford-led study ↗</u></a> conducted in 2023, AI tools can significantly enhance educational practices by providing automated feedback to instructors. This feedback helps improve their communication techniques, particularly in how they acknowledge and build upon students&apos; contributions, a practice known as &quot;uptake.&quot; This improvement in uptake was shown to increase student satisfaction and assignment completion rates. Furthermore, the AI-driven tool, <a href="https://www.mpoweringteachers.com/"><u>M-Powering Teachers ↗</u></a>, offers a cost-effective and scalable alternative to traditional classroom observation, making it accessible for widespread use in educational settings.
         </p>
 
         <div className="relative m-auto mb-10 w-5/6 max-w-screen-lg overflow-hidden md:mb-20 md:h-150 md:rounded-2xl mt-5">
           <img alt="Classroom" loading="eager" decoding="async" data-nimg="1"
             className="h-full w-full object-cover duration-700 ease-in-out scale-100 blur-0 hover:scale-105"
-            srcSet="https://i.postimg.cc/0ND50rWQ/female-high-school-pupil-writing-on-whiteboard-in-2023-11-27-05-17-34-utc-1024x683.jpg"
-            src="https://i.postimg.cc/0ND50rWQ/female-high-school-pupil-writing-on-whiteboard-in-2023-11-27-05-17-34-utc-1024x683.jpg"
+            srcSet="/Images/ClassroomPicture.jpg"
+            src="/Images/ClassroomPicture.jpg"
             style={{ color: 'transparent' }} />
         </div>
+
+        <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
+          Returning to our dataset from <i>Forbes Advisor,</i> some educators have closed the gap and are aware of how they can use AI to their advantage. Several educators have stated that they have seen or used various AI tools for educational purposes. For example, using AI-powered educational games or AI-powered adaptive learning systems where the AI can personalize learning to an individual student. These tools are part of a broader spectrum of AI applications gaining traction in the educational sector. See the breakdown of the data <Link href="/data#figureThree"><u>here ↗</u></Link>. 
+        </p>
+        <div className="hover:scale-105 hover:shadow-glow my-6 mx-auto w-5/6 bg-transparent border-0 dark:bg-gray-700 transition-transform duration-700 ease-in-out p-5">
+        <h2 className="text-2xl text-stone-100 dark:text-white text-center mt-10 mb-5">Figure 3: Educator&apos;s Accounts of Beneficial AI Usage in a Classroom Setting</h2>
+        <img
+          className="w-full h-auto"
+          alt='graph-data-3-educator-AI-encounters'
+          src="/Images/EducatorAIEncounters.png"
+          srcSet="/Images/EducatorAIEncounters.png"
+        />
+
+      </div>
+      <p className="text-md -mt-3 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.forbes.com/advisor/education/it-and-tech/artificial-intelligence-in-school/"><u>Data Source ↗</u></a></p>
 
 
     </div>
