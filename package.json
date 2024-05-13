@@ -5,10 +5,9 @@
   "homepage": "https://arav-sharma.github.io/EnglishFinalProject",
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
+   "start": "next start",
     "build": "next build",
-    "export": "next export",
-    "predeploy": "npm run build && npm run export",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
