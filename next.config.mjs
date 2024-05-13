@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-// next.config.js
-const withOptimizedImages = require('next-export-optimize-images');
+import withOptimizedImages from 'next-export-optimize-images';
 
-module.exports = withOptimizedImages({
+export default withOptimizedImages({
   trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
@@ -16,6 +15,4 @@ module.exports = withOptimizedImages({
   },
 });
 
-
-export default nextConfig;
 
