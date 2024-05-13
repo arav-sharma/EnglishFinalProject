@@ -23,7 +23,7 @@ const ArticleBody: React.FC = () => {
             In-Depth Explaination of Data
           </h1> 
           
-          <hr className="mb-10 w-2/5"/>
+          <hr className="mb-10 w-3/5"/>
 
           <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">How Reputable Is Your Data?</h2>
           <p className="text-md m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
@@ -102,7 +102,7 @@ const ArticleBody: React.FC = () => {
           </p>
           
 
-          <hr className="mb-10 w-2/5"/>
+          <hr className="mb-10 w-3/5"/>
 
           <h2 id="figureTwo" className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Explaination of Figure 2: Opinions of Educator&apos;s of Student Use of AI-Related Cheating in School</h2>
           <div className="hover:scale-105 hover:shadow-glow my-6 mx-auto w-2/5 bg-transparent border-0 dark:bg-gray-700 transition-transform duration-700 ease-in-out p-5">
@@ -153,7 +153,7 @@ const ArticleBody: React.FC = () => {
           </p>
 
           <h3 className="mb-3 font-title text-lg font-bold text-stone-100 dark:text-white mt-15">
-            Figure 2.4: Awareness of Copying or Sharing AI-generated Code or Algorithms for Coding Assignments (28%)
+            Figure 2.4: Awareness of Using AI-Generated Code or Algorithms (28%)
           </h3>
           <p className="text-md mt-3 m-auto w-2/5 text-stone-400 dark:text-stone-400 md:text-lg mb-10">
             Approximately 28% of educators are aware that students might copy or share AI-generated code or algorithms for coding assignments. This issue underscores the importance of teaching ethical programming practices and developing systems to detect and discourage the submission of non-original code.
@@ -167,7 +167,7 @@ const ArticleBody: React.FC = () => {
           </p>
 
           
-          <hr className="mb-10 w-2/5"/>
+          <hr className="mb-10 w-3/5"/>
 
           <h2 id="figureThree" className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Explaination of Figure 3: Educator Accounts of Beneficial Uses of AI</h2>
           <div className="hover:scale-105 hover:shadow-glow my-6 mx-auto w-2/5 bg-transparent border-0 dark:bg-gray-700 transition-transform duration-700 ease-in-out p-5">
