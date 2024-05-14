@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
+import VideoEmbed from '../components/videoembed';
 
 
  {/* 1. What is AI
@@ -108,6 +110,12 @@ const ArticleBody: React.FC = () => {
       <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">AI Streamlines Curriculum Delivery</h2>
       <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
         AI also plays a crucial role in streamlining curriculum delivery and resource management, which can lead to significant improvements in educational outcomes. By personalizing learning experiences and adapting resources to fit the needs of students with varying abilities and paces, AI ensures that all students receive the attention and resources they need to succeed. The Information Technology & Innovation Foundation asserts that AI can &quot;personalize learning experiences&quot; and &quot;adapt resources&quot; to facilitate instructional innovative approaches to individual learning styles and paces, educators can create more inclusive classrooms where all students have the opportunity to thrive <Link href="/references#Diebold"><u>(Diebold and Han) ↗</u></Link>. Additionally, AI&apos;s ability to analyze vast datasets of educational data provides educators with actionable insights into student performance trends, allowing for optimized lesson planning and targeted learning strategies. This data-driven approach ensures that educators can tailor instruction to meet the specific needs of each student, promoting a more equitable and effective educational environment.
+      </p>
+
+      <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Learn How AI Can Revolutionize Education</h2>
+      <VideoEmbed />
+      <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
+      Sal Khan highlights the benefits of AI in education, including personalized learning and scalable tutoring solutions. Watch the video above to understand how AI can make a significant impact on student outcomes.
       </p>
 
       <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Concerns About Data Privacy and Human Interaction</h2>
