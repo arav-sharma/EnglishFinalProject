@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <Link href="/data" ><p className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6 ml-20">Data</p></Link>
             </li>
             <li className="bg-gray-700">
-             <Link href="/references"><p className="bg-gray-700 text-gray-200 hover:underline me-4 md:me-6">References</p></Link>
+             <Link href="/references"><p className="bg-gray-700 text-gray-200 hover:underline mr-1">References</p></Link>
             </li>
           </ul>
 
