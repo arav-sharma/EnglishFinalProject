@@ -1,19 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from 'next/head';
-import VideoEmbed from '../components/videoembed';
-
-
- {/* 1. What is AI
-      2. How is AI used currently in schools
-      3. Data on AI usage in schools now (Forbes had a good chart)
-      4. How can teachers use AI in schools now
-      4a. Picture
-      5. How can schools transform their style of teaching to involve AI postively (2 reasons how this changes the role of the educator)
-      5a. Graphs/Data
-      6. Touch on the refutation
-      6a. Picture
-      7. Conclude */}
 
 const ArticleBody: React.FC = () => {
   return (
@@ -113,9 +99,19 @@ const ArticleBody: React.FC = () => {
       </p>
 
       <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Learn How AI Can Revolutionize Education</h2>
-      <VideoEmbed />
-      <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"> 
-      Sal Khan highlights the benefits of AI in education, including personalized learning and scalable tutoring solutions. Watch the video above to understand how AI can make a significant impact on student outcomes.
+      <div className="relative w-10/12 mx-auto" style={{ paddingBottom: '56.25%' }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/hJP5GqnTrNo"
+            title="How AI Could Save (Not Destroy) Education | Sal Khan | TED"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+      </div>
+      <p className="text-md mt-2 text-right m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg indent-8"><a href="https://www.youtube.com/watch?v=hJP5GqnTrNo&feature=youtu.be"><u>Video Source ↗</u></a></p>
+
+      <p className="text-md m-auto w-10/12 text-stone-400 dark:text-stone-400 md:text-lg mt-2"> 
+        Sal Khan highlights the benefits of AI in education, including personalized learning and scalable tutoring solutions. Watch the video above to understand how AI can make a significant impact on student outcomes.
       </p>
 
       <h2 className="font-titlet text-2xl text-stone-100 dark:text-white text-center mt-10 mb-4">Concerns About Data Privacy and Human Interaction</h2>
@@ -130,7 +126,7 @@ const ArticleBody: React.FC = () => {
 
 
       <p className="text-md m-auto w-10/12 text-stone-300 dark:text-stone-300 md:text-lg mt-20">
-       For more insights on AI integration in education, explore our <Link href="/data#figureThree"><u>data section ↗</u></Link> and visit the article of our sources <Link href="/data#figureThree"><u>here ↗</u></Link> to understand how we presented the information that you read in this article.
+       For more insights on AI integration in education, explore our <Link href="/data"><u>data section ↗</u></Link> and visit the sources of our article <Link href="/reference"><u>here ↗</u></Link> to understand how we presented the information that you read.
       </p>      
     </div>
   );

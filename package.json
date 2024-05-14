@@ -5,7 +5,7 @@
   "homepage": "https://arav-sharma.github.io/EnglishFinalProject",
   "scripts": {
     "dev": "next dev",
-   "start": "next start",
+    "start": "next start",
     "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
@@ -13,6 +13,7 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "iframe": "^1.0.0",
     "lucide-react": "^0.378.0",
     "next": "14.2.3",
     "next-export-optimize-images": "^4.3.1",
