@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "arav-sharma.com",
+  title: "AI in K-12 Education",
   description: "",
 };
 
